@@ -27,7 +27,7 @@ const Card = ({ width, start, para, hover }) => {
 
         { 
           para && (
-           <p className='text-sm text-zinc-500 font-medium '>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+           <p className='text-sm text-zinc-500 font-medium '>Web Design, Webflow Development and Creative Development.</p>
           )
         }
         </div>
