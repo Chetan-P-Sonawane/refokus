@@ -51,7 +51,7 @@ const Products = () => {
         <Product key={index} count={index} val={elem} mover={mover} />
       ))}
 
-      <div className="absolute top-0 w-full h-full pointer-events-none">
+      <div className="topdiv absolute top-0 w-full h-full pointer-events-none">
         
         <motion.div
           initial={{ y: posi, x: "-50%" }}
@@ -62,7 +62,7 @@ const Products = () => {
             <motion.div
               animate={{ y: -posi + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full "
+            className="w-full h-full bg-[#D0D8E0] "
             >
               <video muted autoPlay loop className="w-full h-full " src={cula}></video>
 
@@ -70,7 +70,7 @@ const Products = () => {
             <motion.div
               animate={{ y: -posi + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full "
+            className="w-full h-full bg-[#075D37] "
             >
             <video muted autoPlay loop className="w-full h-full overflow-hidden " src={bcgp}></video>
 
@@ -78,7 +78,7 @@ const Products = () => {
             <motion.div
               animate={{ y: -posi + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full "
+            className="w-full h-full bg-[#252746]"
             >
             <video muted autoPlay loop className="w-full h-full " src={arqitel}></video>
 
@@ -86,7 +86,7 @@ const Products = () => {
             <motion.div
               animate={{ y: -posi + `rem` }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
-              className="w-full h-full "
+            className="w-full h-full bg-[#F3EDED]"
             >
             <video muted autoPlay loop className="w-full h-full " src={sevdesk}></video>
 
