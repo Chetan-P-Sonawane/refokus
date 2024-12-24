@@ -43,8 +43,8 @@ const Marquees = () => {
     ]  
   
   return (
-    <div className='py-20 mt-28'>
-          { marqueData.map((item,index)=> <Marque key={index} imagesurls={item}/>)}
+    <div className='py-20 mt-28 relative overflow-hidden'>
+          { marqueData.map((item,index)=> <Marque key={index} direction={index ===0 ? "left" : "right"} imagesurls={item}/>)}
     </div>
   )
 }
